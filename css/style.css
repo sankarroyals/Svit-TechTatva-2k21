@@ -13,6 +13,9 @@
 /* import Algerial */
 @import url('https://fonts.googleapis.com/css2?family=Algerian&display=swap');
 
+/* import Imprint MT Shadow */
+@import url('https://fonts.googleapis.com/css2?family=Imprint+MT+Shadow&display=swap');
+
 *,
 *::before,
 *::after {
@@ -29,7 +32,7 @@ html {
 
 body {
  
-  font-family : 'Cooper Black', sans-serif;
+  font-family : 'imprint mt shadow', sans-serif;
   letter-spacing: 0.5px;
   color: #6D5D4B;
   font-weight: 300;
