@@ -1,3 +1,18 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Libre+Baskerville:wght@700&family=Open+Sans&display=swap');
+
+/* import cooperBlack font */
+@import url('https://fonts.googleapis.com/css2?family=Cooper+Black&display=swap');
+/* import segoe ui black font */
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap');
+
+/* import bernard MT condesed */
+@import url('https://fonts.googleapis.com/css2?family=Bernard+MT+Condensed&display=swap');
+
+
+/* import Algerial */
+@import url('https://fonts.googleapis.com/css2?family=Algerian&display=swap');
+
 *,
 *::before,
 *::after {
@@ -13,7 +28,9 @@ html {
       font-size: 50%; } }
 
 body {
-  font-family: "Nunito", sans-serif;
+ 
+  font-family : 'Cooper Black', sans-serif;
+  letter-spacing: 0.5px;
   color: #6D5D4B;
   font-weight: 300;
   line-height: 1.6; }
@@ -39,6 +56,22 @@ body #about{
   @media only screen and (max-width: 50em) {
     .container {
       grid-template-rows: 6rem calc(100vh - 6rem); } }
+
+      /* .container .magazine .mg .btn{
+         background-color: #101d2c;
+
+      }
+@media only screen and (max-width: 62.5em) {
+     .container .magazine .mg .btn {
+   
+      background-color: #101d2c;
+     }
+} */
+@media only screen and (max-width: 52.5em) {
+  .magazine .cen .sammy{margin-left:-100px}
+    
+}
+
 
 .heading-1, .heading-2, .heading-3, .heading-4 {
   font-family: "Josefin Sans", sans-serif;
@@ -620,6 +653,16 @@ section::after{
     display: inline-block;
     background: #6D5D4B;
     margin: 20px;
+}
+@media screen and (max-width: 62.5em) {
+  .sammy a{
+    position: relative;
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    background: #6D5D4B;
+    margin: 20px;
+}
 }
 .sammy a:before,
 .sammy a:after{
