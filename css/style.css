@@ -1,3 +1,21 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Libre+Baskerville:wght@700&family=Open+Sans&display=swap');
+
+/* import cooperBlack font */
+@import url('https://fonts.googleapis.com/css2?family=Cooper+Black&display=swap');
+/* import segoe ui black font */
+@import url('https://fonts.googleapis.com/css2?family=Segoe+UI&display=swap');
+
+/* import bernard MT condesed */
+@import url('https://fonts.googleapis.com/css2?family=Bernard+MT+Condensed&display=swap');
+
+
+/* import Algerial */
+@import url('https://fonts.googleapis.com/css2?family=Algerian&display=swap');
+
+/* import Imprint MT Shadow */
+@import url('https://fonts.googleapis.com/css2?family=Imprint+MT+Shadow&display=swap');
+
 *,
 *::before,
 *::after {
@@ -13,7 +31,9 @@ html {
       font-size: 50%; } }
 
 body {
-  font-family: "Nunito", sans-serif;
+ 
+  font-family : 'imprint mt shadow', sans-serif;
+  letter-spacing: 0.5px;
   color: #6D5D4B;
   font-weight: 300;
   line-height: 1.6; }
@@ -40,8 +60,24 @@ body #about{
     .container {
       grid-template-rows: 6rem calc(100vh - 6rem); } }
 
+      /* .container .magazine .mg .btn{
+         background-color: #101d2c;
+
+      }
+@media only screen and (max-width: 62.5em) {
+     .container .magazine .mg .btn {
+   
+      background-color: #101d2c;
+     }
+} */
+@media only screen and (max-width: 52.5em) {
+  .magazine .cen .sammy{margin-left:-100px}
+    
+}
+
+
 .heading-1, .heading-2, .heading-3, .heading-4 {
-  font-family: "Josefin Sans", sans-serif;
+  /* font-family: 'Algerian', cursive;; */
   font-weight: 400; }
 
 .heading-1 {
@@ -75,7 +111,7 @@ body #about{
   color: #fff;
   border: none;
   border-radius: 0;
-  font-family: "Josefin Sans", sans-serif;
+  /* font-family: "Josefin Sans", sans-serif; */
   font-size: 1.5rem;
   text-transform: uppercase;
   padding: 1.8rem 3rem;
@@ -108,6 +144,24 @@ body #about{
       grid-row: 1 / 2;
       justify-content: flex-end;
       align-items: center; } }
+
+.sidebar .sm_btn {
+  background-color: rgb(77, 31, 77) ;
+  transition: 0.5s;
+  font-size: 1.5rem;
+  visibility: hidden;
+  cursor: none;
+}
+ @media only screen and (max-width: 62.5em) {
+    .sidebar .sm_btn {
+     visibility: visible;
+    text-transform: none;
+  letter-spacing: 0.5px; } }
+.sidebar .sm_btn:hover{
+  letter-spacing: 1px;
+ text-decoration: underline;
+ 
+}
 
 .nav-btn {
   border: none;
@@ -340,7 +394,7 @@ body #about{
     align-self: end;
     z-index: 3;
     width: 80%;
-    font-family: "Josefin Sans", sans-serif;
+    /* font-family: "Josefin Sans", sans-serif; */
     font-size: 1.6rem;
     text-align: center;
     padding: 1.25rem;
@@ -436,7 +490,7 @@ body #about{
     font-size: 1.4rem;
     color: #fff;
     text-decoration: none;
-    font-family: "Josefin Sans", sans-serif;
+    /* font-family: 'Algerian', cursive; */
     text-transform: uppercase;
     text-align: center;
     padding: 1.5rem;
@@ -602,6 +656,16 @@ section::after{
     display: inline-block;
     background: #6D5D4B;
     margin: 20px;
+}
+@media screen and (max-width: 62.5em) {
+  .sammy a{
+    position: relative;
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+    background: #6D5D4B;
+    margin: 20px;
+}
 }
 .sammy a:before,
 .sammy a:after{
