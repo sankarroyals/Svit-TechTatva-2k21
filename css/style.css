@@ -255,7 +255,7 @@ body #about{
     display: grid;
     grid-template-columns: min-content max-content;
     grid-column-gap: 2rem;
-    grid-row-gap: 5vh;
+    grid-row-gap: 2vh;
     align-items: center; }
     @media only screen and (max-width: 50em) {
       .realtors__list {
