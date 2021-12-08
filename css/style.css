@@ -255,7 +255,7 @@ body #about{
     display: grid;
     grid-template-columns: min-content max-content;
     grid-column-gap: 2rem;
-    grid-row-gap: 2vh;
+    grid-row-gap: 0.5vh;
     align-items: center; }
     @media only screen and (max-width: 50em) {
       .realtors__list {
@@ -264,7 +264,7 @@ body #about{
       .realtors__list {
         grid-template-columns: min-content max-content; } }
   .realtors__img {
-    width: 7rem;
+    width: 6rem;
     border-radius: 50%;
     display: block; }
   .realtors__sold {
